@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./lib/bootstrap.min.2.1.0.css">
     <link rel="stylesheet" type="text/css" href="./demo.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <script src="../lib/require.js"></script>
    <script src="./demo.js"> </script>
+   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+   <script src="./edit-table.js"></script>
 
    <script id="array-to-table-template" type="text/x-handlebars-template">
      <table class='table table-bordered table-condensed table-striped' >
@@ -79,7 +83,11 @@
               </tr>
             </tbody>
           </table>
+          <button class="glyphicon glyphicon-plus-sign btn btn-primary" id="addRecord" title="Add Record"></button>
+          <br>
+          <br>
           <button class="btn btn-primary" id="recomputeBtn">Recompute</button>
+
         </div>
 
         <div class="span3">

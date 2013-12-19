@@ -54,3 +54,15 @@ path.nelink {
   stroke: steelblue;
   stroke-width: 1.5px;
 }
+#addRecord{
+  font-size: 75%;
+}
+input
+{
+
+  width:28px;
+}
+.span3{
+  margin :5px;
+}
+
