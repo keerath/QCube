@@ -57,12 +57,16 @@ path.nelink {
 #addRecord{
   font-size: 75%;
 }
-input
+input:not(#link)
 {
-
-  width:28px;
+  width:33px;
+  height :25px;
 }
 .span3{
   margin :5px;
 }
-
+#link
+{
+  width :400px;
+  height :25px;
+}
